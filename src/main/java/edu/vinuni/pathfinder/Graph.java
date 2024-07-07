@@ -29,7 +29,6 @@ class Graph implements IGraph {
             fromEdge.addVehicleWeight(vehicleType, weight);
         }
 
-        // If the graph is undirected, add the reverse edge
         Edge toEdge = toNode.getEdge(fromNode);
         if (toEdge == null) {
             toEdge = new Edge(fromNode, vehicleType, weight);

@@ -5,7 +5,7 @@ import java.util.Set;
 
 class Edge {
     private Node targetNode;
-    private Map<String, Integer> vehicleWeights; // Weight based on vehicle type
+    private Map<String, Integer> vehicleWeights;
 
     public Edge(Node targetNode, String vehicleType, int weight) {
         this.targetNode = targetNode;
